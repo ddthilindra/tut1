@@ -1,12 +1,26 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+const Home = () => {
+  return (
+    <View style={styles.view}>
+      <Text style={styles.bodyText}>Welcome to Home!</Text>
+    </View>
+  );
+};
+
+const Stack = createNativeStackNavigator();
 
 class App extends Component {
   render() {
     return (
-      <View style={styles.view}>
-        <Text style={styles.bodyText}>Hello World!</Text>
-      </View>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Home" Component={Home} />
+        </Stack.Navigator>
+      </NavigationContainer>
     );
   }
 }
