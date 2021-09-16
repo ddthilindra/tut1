@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "820460791457",
+    "project_id": "tut1-bd916",
+    "storage_bucket": "tut1-bd916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820460791457:android:8c31e5caac9179e81872e0",
+        "android_client_info": {
+          "package_name": "com.tut1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820460791457-cvpv0k5m7rie9si0bm4cj12r8b10gd04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp3_GERopztIUe2-QB2DyJCaIrk-vlbz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820460791457-cvpv0k5m7rie9si0bm4cj12r8b10gd04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
